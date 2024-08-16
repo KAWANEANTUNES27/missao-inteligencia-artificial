@@ -6,67 +6,68 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: " A medicina terapêutica se concentra no tratamento de doenças e condições médicas?
+,
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmação"
+                texto: "verdadeiro",
+                afirmacao: "Sim,a medicina terapêutica se concentra no tratamento de doenças e condiçoes médicas."
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmação"
+                texto: "falso",
+                afirmacao: "O foco é proporcionar terapias e intervençoes que visam aliviar sintomas."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "A medicina terapêutica visa melhorar a qualidade de vida e a independência dos pacientes.?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "afirmação"
+                texto: "verdadeiro",
+                afirmacao: "Sim, além de tratar doenças e condiçoes médicas."
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "afirmação"
+                texto: "falso",
+                afirmacao: "A medicina terapêutica busca sim melhorar a qualidade de vida e independência dos pacientes."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "A medicina terapêutica é a mesma coisa que a medicina preventiva?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "afirmação"
+                texto: "verdadeiro",
+                afirmacao: "São distintas embora ambas sejam importantes para a saúde."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "falso",
+                afirmacao: "Não, pois a medicina terapêutica foca no tratamento de curar,controlar ou aliviar os sintomas de doenças. A medicina preventiva tem como objetivo de evitar surgimento de doenças incluindo medidas como vacinação etc."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "A medicina terapêutica inclui administração de medicamentos e terapias específicas para tratar doenças?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "afirmação"
+                texto: "verdadeiro",
+                afirmacao: "Sim, a medicina terapêutica inclui a administração de medicamentos e terapias específicas para tratar doenças."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                texto: "falso",
+                afirmacao: "O objetivo é personalizar o tratamento de acoedo com a condição de saúde do paciente para alcançar o melhor resultado possível."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "A medicina terapêutica é uma abordagem holística que considera todos os aspectos da saúde do paciente.? ",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                texto: "verdadeiro",
+                afirmacao: "A abordagem holística considera todos os aspectos da saúde do paciente, incluindo fatores físicos,emocionais,sociais e ambientais."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
+                texto: "falso",
+                afirmacao: "No entanto,a abrangência e a integração de uma abordagem holística podem variar dependendo do contexto e da prática médica específica."
             }
         ]
     },
