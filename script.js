@@ -75,7 +75,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+let historiaFinal = "A história da medicina terapêutica é extensa e evolutiva, refletindo o progresso na compreensão eno tratamento das doenças ao longo dos séculos.";
 
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
